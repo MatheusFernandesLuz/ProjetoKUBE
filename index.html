@@ -24,10 +24,36 @@
 </head>
 <body>
     <!-- cabeçalho -->
-    <div class="col col-12 cabecalho">
-    Livraria Tope
-
+    <div class="row">
+        <div id="navbar-demo" data-component="sticky" class="col col-12 cabecalho">
+          <div class="col col-4 cabeçalho">
+            <span>BookStore</span>
+          </div>
+          <div class="col col-8 cabecalho">
+            <nav>
+                <ul>
+                    <li>
+                      <a href="" data-component="dropdown" data-target="#dropdown-fixed">
+                      Home<span class="caret down"></span>
+                        </a>
+                      <a href="" data-component="dropdown" data-target="#dropdown-fixed">
+                      Teste<span class="caret down"></span>
+                        </a>
+                    </li>
+                </ul>
+          </nav>
+          </div>
+        </div>
     </div>
+
+    <!-- Corpo -->
+      <div class="row">
+        <div class="col col-10 red" style="height: 1300px">
+
+        </div>
+      </div>
+
+
 
     <!-- Kube JS + jQuery are used for some functionality, but are not required for the basic setup -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
